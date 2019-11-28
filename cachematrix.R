@@ -45,14 +45,12 @@ return(rossella)
 
 }
 
-
-
 data <- x$get() ## Get x
 
-elisa <- solve(data,...) ##Solve 
+rossella <- solve(data,...) ##Solve 
 
-x$setInverse(elisa) ## Set the inverse 
+x$setInverse(rossella) ## Set the inverse 
 
-elisa ## Return the matrix
+rossella ## Return the matrix
 
 }
